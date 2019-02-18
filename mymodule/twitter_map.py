@@ -103,17 +103,17 @@ def map_maker(name_csv_file, account):
 							)
 	mappy.add_child(fg_simple)
 	file_name = "Map_{}.html".format(account)
-	mappy.save(file_name)
+	mappy.save('templates/'+ file_name)
 	return file_name
 
 
-if __name__ == "__main__":
+def main(acct):
 	inp_detect = False
-	while inp_detect == False:
-		print('')
-		acct = input('Enter Twitter Account:')
-		if len(acct) > 1:
-			inp_detect = True
+	# while inp_detect == False:
+	# 	print('')
+	# 	acct = input('Enter Twitter Account:')
+	# 	if len(acct) > 1:
+	# 		inp_detect = True
 	jsonfile = json_maker(acct)
 	html_name = map_maker(location_reader(jsonfile), acct)
 	print("Your file in {}".format(html_name))
