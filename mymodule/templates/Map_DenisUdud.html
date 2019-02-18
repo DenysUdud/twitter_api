@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_78e23ca61f46468ebaef54533bf311c2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_78e23ca61f46468ebaef54533bf311c2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_78e23ca61f46468ebaef54533bf311c2 = L.map(
+        'map_78e23ca61f46468ebaef54533bf311c2', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_6ae74cf434d24c568d9f6ef012107eb7 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_78e23ca61f46468ebaef54533bf311c2);
+    
+            var feature_group_20dde9c0e6f2420cbb8b04198b82878a = L.featureGroup(
+                ).addTo(map_78e23ca61f46468ebaef54533bf311c2);
+        
+    
+        var marker_5305828c9b9242f7800faef702047631 = L.marker(
+            [40.7308619, -73.9871558],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_db8d00d2cf43483f82870ea97bc349f3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5305828c9b9242f7800faef702047631.setIcon(icon_db8d00d2cf43483f82870ea97bc349f3);
+            
+    
+            var popup_cf447347f3bb4021ad1bc36246b151fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f42dcfd11e14d85943da786abccea7f = $(`<div id="html_7f42dcfd11e14d85943da786abccea7f" style="width: 100.0%; height: 100.0%;">Olivia Palermo</div>`)[0];
+                popup_cf447347f3bb4021ad1bc36246b151fd.setContent(html_7f42dcfd11e14d85943da786abccea7f);
+            
+
+            marker_5305828c9b9242f7800faef702047631.bindPopup(popup_cf447347f3bb4021ad1bc36246b151fd)
+            ;
+
+            
+        
+    
+        var marker_605189205d4b4e4d8ab8ce6ad98eabec = L.marker(
+            [-33.8548157, 151.2164539],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_bab5a729c66d49be9f14dd1c28ace493 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_605189205d4b4e4d8ab8ce6ad98eabec.setIcon(icon_bab5a729c66d49be9f14dd1c28ace493);
+            
+    
+            var popup_8722f23ed172446c81c0668fec92badb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e5472c93ad2418ba050ce9205f4aa22 = $(`<div id="html_1e5472c93ad2418ba050ce9205f4aa22" style="width: 100.0%; height: 100.0%;">Hugh Jackman</div>`)[0];
+                popup_8722f23ed172446c81c0668fec92badb.setContent(html_1e5472c93ad2418ba050ce9205f4aa22);
+            
+
+            marker_605189205d4b4e4d8ab8ce6ad98eabec.bindPopup(popup_8722f23ed172446c81c0668fec92badb)
+            ;
+
+            
+        
+    
+        var marker_7afcfcce36184bdbb9909f9190714858 = L.marker(
+            [38.8950092, -77.0365625],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_9606d6c577c64cefa87bede36d99c95c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7afcfcce36184bdbb9909f9190714858.setIcon(icon_9606d6c577c64cefa87bede36d99c95c);
+            
+    
+            var popup_7df46707fd744aa9b8c796cd6e6b3479 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5fbbc790d13495f89e143ed062d36d2 = $(`<div id="html_b5fbbc790d13495f89e143ed062d36d2" style="width: 100.0%; height: 100.0%;">Donald J. Trump</div>`)[0];
+                popup_7df46707fd744aa9b8c796cd6e6b3479.setContent(html_b5fbbc790d13495f89e143ed062d36d2);
+            
+
+            marker_7afcfcce36184bdbb9909f9190714858.bindPopup(popup_7df46707fd744aa9b8c796cd6e6b3479)
+            ;
+
+            
+        
+    
+        var marker_02734cc82d3b4b4d8a0962a68f25e0d1 = L.marker(
+            [55.7504461, 37.6174943],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_69088bc6e6f24d4cbf053be022afa3b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_02734cc82d3b4b4d8a0962a68f25e0d1.setIcon(icon_69088bc6e6f24d4cbf053be022afa3b6);
+            
+    
+            var popup_60cf4ab52f9348668e5559f8d269253c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e1189f97fa049cf8d7bc30065caf2b0 = $(`<div id="html_5e1189f97fa049cf8d7bc30065caf2b0" style="width: 100.0%; height: 100.0%;">𝕜𝕫𝕜𝕧</div>`)[0];
+                popup_60cf4ab52f9348668e5559f8d269253c.setContent(html_5e1189f97fa049cf8d7bc30065caf2b0);
+            
+
+            marker_02734cc82d3b4b4d8a0962a68f25e0d1.bindPopup(popup_60cf4ab52f9348668e5559f8d269253c)
+            ;
+
+            
+        
+    
+        var marker_bce8ab4bf09a4ecb8211e8d23eae36ad = L.marker(
+            [40.7308619, -73.9871558],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_6ed1a9e6a89d4b50a8f31d6e210e97b0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bce8ab4bf09a4ecb8211e8d23eae36ad.setIcon(icon_6ed1a9e6a89d4b50a8f31d6e210e97b0);
+            
+    
+            var popup_af2360bd7d6040c0b8cc9835f4a028ce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e1e9671e2b104a5d8035c91fad5fa4e5 = $(`<div id="html_e1e9671e2b104a5d8035c91fad5fa4e5" style="width: 100.0%; height: 100.0%;">Pasha [GEEK SPUTNIK]</div>`)[0];
+                popup_af2360bd7d6040c0b8cc9835f4a028ce.setContent(html_e1e9671e2b104a5d8035c91fad5fa4e5);
+            
+
+            marker_bce8ab4bf09a4ecb8211e8d23eae36ad.bindPopup(popup_af2360bd7d6040c0b8cc9835f4a028ce)
+            ;
+
+            
+        
+    
+        var marker_c1bcc81d8cfb4582b598e642915f7847 = L.marker(
+            [55.7504461, 37.6174943],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_49911a2990ba4e40abcdc290d3982554 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1bcc81d8cfb4582b598e642915f7847.setIcon(icon_49911a2990ba4e40abcdc290d3982554);
+            
+    
+            var popup_64e91de60097432898b0f0d9b8b6a4b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fda4016b4a764e07b522da103c7da226 = $(`<div id="html_fda4016b4a764e07b522da103c7da226" style="width: 100.0%; height: 100.0%;">Roy Droider</div>`)[0];
+                popup_64e91de60097432898b0f0d9b8b6a4b9.setContent(html_fda4016b4a764e07b522da103c7da226);
+            
+
+            marker_c1bcc81d8cfb4582b598e642915f7847.bindPopup(popup_64e91de60097432898b0f0d9b8b6a4b9)
+            ;
+
+            
+        
+    
+        var marker_201fc5fe17cd4c9b91026b9f8c3b53f6 = L.marker(
+            [49.4871968, 31.2718321],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_a5a8b88240fa45be9d7c205a498d122d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_201fc5fe17cd4c9b91026b9f8c3b53f6.setIcon(icon_a5a8b88240fa45be9d7c205a498d122d);
+            
+    
+            var popup_006ef4af3f7b4c09919f545cc2d5e396 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_27ffe857cb354e939200fed6fc7857d3 = $(`<div id="html_27ffe857cb354e939200fed6fc7857d3" style="width: 100.0%; height: 100.0%;">University And |\/\e</div>`)[0];
+                popup_006ef4af3f7b4c09919f545cc2d5e396.setContent(html_27ffe857cb354e939200fed6fc7857d3);
+            
+
+            marker_201fc5fe17cd4c9b91026b9f8c3b53f6.bindPopup(popup_006ef4af3f7b4c09919f545cc2d5e396)
+            ;
+
+            
+        
+    
+        var marker_5cc73df4f46f46988b1a520742c61441 = L.marker(
+            [55.7504461, 37.6174943],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_d59bef14e8104971a8b70744bc9d4161 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5cc73df4f46f46988b1a520742c61441.setIcon(icon_d59bef14e8104971a8b70744bc9d4161);
+            
+    
+            var popup_c6179c03621943f28562bafa39ec34c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6926a1f8c68f4cfd812aaf644197c125 = $(`<div id="html_6926a1f8c68f4cfd812aaf644197c125" style="width: 100.0%; height: 100.0%;">Валерий Истишев</div>`)[0];
+                popup_c6179c03621943f28562bafa39ec34c4.setContent(html_6926a1f8c68f4cfd812aaf644197c125);
+            
+
+            marker_5cc73df4f46f46988b1a520742c61441.bindPopup(popup_c6179c03621943f28562bafa39ec34c4)
+            ;
+
+            
+        
+    
+        var marker_fec19a920ec042cbb269d12a7ee74865 = L.marker(
+            [55.7504461, 37.6174943],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_c171284ffccf4494bea68041389d0634 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fec19a920ec042cbb269d12a7ee74865.setIcon(icon_c171284ffccf4494bea68041389d0634);
+            
+    
+            var popup_09b1aaab7d274ac1856c99d022623909 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6042891f55b048c8baba928ec08727fa = $(`<div id="html_6042891f55b048c8baba928ec08727fa" style="width: 100.0%; height: 100.0%;">Веденский</div>`)[0];
+                popup_09b1aaab7d274ac1856c99d022623909.setContent(html_6042891f55b048c8baba928ec08727fa);
+            
+
+            marker_fec19a920ec042cbb269d12a7ee74865.bindPopup(popup_09b1aaab7d274ac1856c99d022623909)
+            ;
+
+            
+        
+    
+        var marker_15180dd022ab44f89d3053ba19a64568 = L.marker(
+            [49.4871968, 31.2718321],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_09823675cb85466180b7561139d89f6e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15180dd022ab44f89d3053ba19a64568.setIcon(icon_09823675cb85466180b7561139d89f6e);
+            
+    
+            var popup_96267037d3664dc4adb08189571a43f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_73ec98af63e14c86a1fce35e08678505 = $(`<div id="html_73ec98af63e14c86a1fce35e08678505" style="width: 100.0%; height: 100.0%;">Океан Ельзи</div>`)[0];
+                popup_96267037d3664dc4adb08189571a43f6.setContent(html_73ec98af63e14c86a1fce35e08678505);
+            
+
+            marker_15180dd022ab44f89d3053ba19a64568.bindPopup(popup_96267037d3664dc4adb08189571a43f6)
+            ;
+
+            
+        
+    
+        var marker_6632f3c05e9449ef9e0b28874c7788c0 = L.marker(
+            [49.2783459, 23.506445899999996],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_cf857a7302674e87900b99a56d2fd441 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6632f3c05e9449ef9e0b28874c7788c0.setIcon(icon_cf857a7302674e87900b99a56d2fd441);
+            
+    
+            var popup_6ec9b08b1c614c1582246f5535406d7c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6007cdcbe29456584465b63d31ca371 = $(`<div id="html_d6007cdcbe29456584465b63d31ca371" style="width: 100.0%; height: 100.0%;">Анастасия Денисюк</div>`)[0];
+                popup_6ec9b08b1c614c1582246f5535406d7c.setContent(html_d6007cdcbe29456584465b63d31ca371);
+            
+
+            marker_6632f3c05e9449ef9e0b28874c7788c0.bindPopup(popup_6ec9b08b1c614c1582246f5535406d7c)
+            ;
+
+            
+        
+    
+        var marker_d1582927922b4c009907f706eb63843d = L.marker(
+            [37.3228934, -122.0322895],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_20dde9c0e6f2420cbb8b04198b82878a);
+        
+    
+
+                var icon_1feccd1a01814c41905d20346ba60866 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1582927922b4c009907f706eb63843d.setIcon(icon_1feccd1a01814c41905d20346ba60866);
+            
+    
+            var popup_ae9848c8e26c4ef1af08d8703e1911f2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5e804ec28b54763a2b24fbd934d28e6 = $(`<div id="html_a5e804ec28b54763a2b24fbd934d28e6" style="width: 100.0%; height: 100.0%;">Wylsacom</div>`)[0];
+                popup_ae9848c8e26c4ef1af08d8703e1911f2.setContent(html_a5e804ec28b54763a2b24fbd934d28e6);
+            
+
+            marker_d1582927922b4c009907f706eb63843d.bindPopup(popup_ae9848c8e26c4ef1af08d8703e1911f2)
+            ;
+
+            
+        
+</script>
